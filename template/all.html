@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>AutLogout.org - Automatically log out of popular sites</title>
+    <meta name="keywords" content="CSRF, logout" />
+</head>
+<body>
+    <h1>Automatic Logout With CSRF</h1>
+    <p>The following list of sites is vulnerable to
+        <a href="http://en.wikipedia.org/wiki/Cross-site_request_forgery">
+        Cross-site request forgery</a>, a long known attack against
+        websites. We demonstrate the vulnerability by automatically
+        logging out the visitor, a harmless action. Many of these sites
+        are also open to more harmful attacks.
+    </p>
+    <ul>
+    <%loop working%>
+    <li>
+        <img src="<%var csrf_url%>" class="csrf" alt="" width="1" height="1"
+        <%var site%>
+    </li>
+    <%/loop%>
+    </ul>
+</body>
+</html>
+
