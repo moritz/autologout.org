@@ -1,4 +1,4 @@
-last.fm,token
-reddit.com,token
-twitter.com,token
-news.ycombinator.com,token
+Last.fm,http://last.fm/,token
+Reddit,http://reddit.com/,token
+Twitter,http://twitter.com/,token
+Hackernews,http://news.ycombinator.com/,token
