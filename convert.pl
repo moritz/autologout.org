@@ -8,14 +8,16 @@ use utf8;
 
 use HTML::Template::Compiled;
 my $t = HTML::Template::Compiled->new(
-    filename    => 'template/all.html',
-    open_mode   => ':encoding(UTF-8)',
+    filename        => 'template/all.html',
+    open_mode       => ':encoding(UTF-8)',
+    default_escape  => 'HTML',
 );
 
 my @working;
 open my $in, '<:encoding(UTF-8)', 'data/working.csv';
 while (<$in>) {
     # TODO: use Text::CSV when necessary
+    chomp;
     my ($site, $csrf_url) = split /,/, $_, 2;
     push @working, { site => $site, csrf_url => $csrf_url };
 }
