@@ -1,4 +1,5 @@
-Gmail,https://mail.google.com/mail/?logout&hl=en
+Gmail and Google Reader,https://mail.google.com/mail/?logout&hl=en
+Google Calendar,https://www.google.com/calendar/b/0/logout
 Slashdot,http://slashdot.org/my/logout
 Github,https://github.com/logout
 Wordpress, https://wordpress.com/wp-login.php?action=logout&redirect_to=https%3A%2F%2Fwordpress.com%2F
@@ -6,3 +7,4 @@ Xing,https://www.xing.com/app/user?op=logout
 Heise,https://www.heise.de/userdb/sso?rm=do_logout&dirid=1
 Golem,http://forum.golem.de/login.php?,logout=1
 wer-weiss-was,http://www.wer-weiss-was.de/app/login/logout
+Kongregate,http://www.kongregate.com/session/new
