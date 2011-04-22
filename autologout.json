@@ -1,0 +1,5 @@
+{
+    "connectstring": "dbi:mysql:dbname=moritz5;host=localhost",
+    "username"     : "moritz",
+    "password"     : "foo"
+}
