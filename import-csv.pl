@@ -31,7 +31,6 @@ while (<$in>) {
             site_url    => $url,
             protected   => 1,
             approved    => 1,
-            votes_no    => 1,
     });
 }
 
